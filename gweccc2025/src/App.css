@@ -1,0 +1,242 @@
+/* Logo start here */
+.logoContainer {
+  position: relative;
+  box-shadow: rgba(16, 9, 9, 0.148) 0px 5px 15px;
+  width: 100%;
+  height: 110px;
+  max-height: 120px;
+  display: flex;
+  background-color: white;
+}
+
+.logoContainer img {
+  width: 185px;
+  height: 90px;
+  margin: 10px;
+  position: absolute;
+}
+
+/* Logo end here */
+
+/* Hero section start from here */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.heroImage img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.hero-content {
+
+  text-align: center;
+  align-items: center;
+  margin: 5px;
+  width: 100%;
+  justify-content: center;
+  /* padding-top: 10px; */
+}
+
+.hero-content h1 {
+  font-size: 25px;
+  color: #003366;
+  line-height: 27px;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.hero-content p:nth-child(2) {
+  color: #333333;
+}
+
+.hero-content p:nth-child(3) {
+  color: #D71600;
+}
+
+.hero-content p:nth-child(4) {
+  color: #002F4B;
+}
+
+.heroImage {
+  width: 100%;
+}
+
+/* Hero section end from here */
+
+/* about section start from here */
+.about-section {
+  margin: 30px 0px 20px 0px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+}
+
+.about-section h2 {
+  font-size: 25px;
+  color: #003366;
+  font-weight: bold;
+}
+
+.about-section p {
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+}
+
+/* About section end from here */
+
+/* Schedule section start from here */
+.schedule-section {
+  width: 100%;
+}
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+.schedule-section h1 {
+  font-size: 25px;
+  color: #003366;
+  line-height: 27px;
+  font-weight: bold;
+}
+
+.schedule-section {
+  margin-top: 50px 0px 50px 0px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+
+}
+
+th {
+  color: #F0F8FF;
+  background-color: #1F4E79;
+  font-weight: bold;
+}
+
+td {
+  background-color: #333333;
+  color: #F0F8FF;
+}
+
+
+th,
+td {
+  padding: 10px;
+  /* border: 1px solid #ddd; */
+  text-align: center;
+}
+
+/* Schedule section end from here */
+
+
+/* Registration section start from here */
+.registration-section {
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+.registration-section h1 {
+  font-size: 25px;
+  color: #003366;
+  line-height: 27px;
+  font-weight: bold;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+
+}
+
+.registerForm input,
+button,
+select {
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 10px;
+  border: 1px solid #dddddd79;
+
+}
+
+input {
+  background-color: transparent;
+  color: white;
+
+}
+
+input::placeholder {
+  color: #008080;
+}
+
+input:focus {
+  border-color: #00fffb7a;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  color: #eef2f5;
+}
+
+select:focus {
+  border-color: #00fffb7a;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  color: #eef2f5;
+}
+
+select {
+  background-color: transparent;
+  color: #008080;
+}
+
+option {
+  color: #008080;
+}
+
+select::placeholder {
+  color: #008080;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #1F4E79;
+  background-color: cadetblue;
+}
+
+/* Registration section end from here */
+
+
+@media only screen and (max-width: 600px) {
+  .logoContainer img {
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+
+  }
+
+  .hero-section {
+    display: block;
+    height: 100%;
+
+  }
+
+}
