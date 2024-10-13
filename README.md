@@ -69,6 +69,15 @@ To ensure the email's compatibility across devices, I used **Litmus** to test th
 
 The email renders properly on all these clients, ensuring text, images, and buttons are readable and clickable across different screen sizes.
 
+## Project Links:
+- **GitHub Repository**: [Event Promotion Website and Emailer for GWECCC 2025](https://github.com/Gyanmaurya/Event-Promotion-Website-and-Emailer-for-GWECCC-2025.git)
+- **Live Website (Netlify)**: [View the Website](https://dreamy-froyo-c14bf2.netlify.app/)
+
+## Design Choices and Challenges
+For the **website design**, I focused on creating a clean and modern interface to present the event details in a professional manner. The hero section grabs attention, while the form is simple and functional. I used React.js to manage the component structure efficiently, ensuring reusability and ease of updates.
+
+The main challenge was ensuring responsiveness across all devices while keeping the design consistent. I made use of media queries and React components to handle this efficiently. For the emailer, the challenge was testing across multiple email clients, which was handled using the Litmus tool.
+
 ## Summary
 
 This project delivers a **responsive website** and **mobile-friendly emailer** for the GWECCC 2025 event. The website highlights event details and offers a registration form, while the emailer ensures proper compatibility across popular email platforms. Both the website and emailer were tested thoroughly for functionality and responsiveness across a wide range of devices.
